@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DraftRandomizer
+namespace DraftOrderRandomizer
 {
     static class Program
     {

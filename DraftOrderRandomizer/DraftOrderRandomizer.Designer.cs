@@ -1,4 +1,4 @@
-﻿namespace DraftRandomizer
+﻿namespace DraftOrderRandomizer
 {
     partial class DraftOrderRandomizer
     {
@@ -43,7 +43,7 @@
             this.btnRandomize.TabIndex = 0;
             this.btnRandomize.Text = "Randomize";
             this.btnRandomize.UseVisualStyleBackColor = true;
-            this.btnRandomize.Click += new System.EventHandler(this.btnGenerate_Click);
+            this.btnRandomize.Click += new System.EventHandler(this.btnRandomize_Click);
             // 
             // txtList
             // 

@@ -8,8 +8,8 @@
     <ProjectGuid>{C0DC86DD-B7F8-43F4-BA56-C1E32EE12487}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DraftRandomizer</RootNamespace>
-    <AssemblyName>DraftRandomizer</AssemblyName>
+    <RootNamespace>DraftOrderRandomizer</RootNamespace>
+    <AssemblyName>DraftOrderRandomizer</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

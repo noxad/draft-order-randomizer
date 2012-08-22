@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DraftRandomizer
+namespace DraftOrderRandomizer
 {
     public partial class DraftOrderRandomizer : Form
     {
@@ -10,10 +10,10 @@ namespace DraftRandomizer
             InitializeComponent();
         }
 
-        private void btnGenerate_Click(object sender, EventArgs e)
+        private void btnRandomize_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            string[] initialOwnerArray;
+            string[] initialArray;
             string[] splitArray = new string[1];
             System.Collections.ArrayList list = new System.Collections.ArrayList();
             int length;
@@ -22,7 +22,7 @@ namespace DraftRandomizer
             splitArray[0] = Environment.NewLine; // Used to split the list of owners in the textbox
 
             // Add contents of textbox to array
-            list.AddRange(initialOwnerArray = txtList.Text.Split(splitArray, StringSplitOptions.RemoveEmptyEntries));
+            list.AddRange(initialArray = txtList.Text.Split(splitArray, StringSplitOptions.RemoveEmptyEntries));
             
             txtList.Clear();
 
